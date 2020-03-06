@@ -1,0 +1,31 @@
+# Collection of experiments
+#
+# date: year (expected or achieved)
+# frequency: GHz
+# fwhm: arcmin
+# bandwidth: delta_nu_over_nu
+# pixel_size: mm
+# detectors: number
+# net_det: uK_sqrt_s
+# net_arr_t: uK_sqrt_s
+# net_arr_p:  uK_sqrt_s
+# depth_p: uK_arcmin
+# f_sky: fraction
+# status: forecast or achieved
+# type: satellite, ground, baloon
+
+LiteBIRD:
+  frequency:  [40,      50,     60,     68,     78,     89,     100,    119,    140,    166,    195,    235,    280,    337,    402]
+  depth_p:    [37.5,    24,     19.9,   16.2,   13.5,   11.7,   9.2,    7.6,    5.9,    6.5,    5.8,    7.7,    13.2,   19.5,   37.5]
+  fwhm:       [69,      56,     48,     43,     39,     35,     29,     25,     23,     21,     20,     19,     24,     20,     17]
+  bandwidth:  [0.3,     0.3,    0.23,   0.23,   0.23,   0.23,   0.23,   0.3,    0.3,    0.3,    0.3,    0.3,    0.3,    0.3,    0.23]
+  pixel_size: [18,      18,     18,     18,     18,     18,     12,     12,     12,     12,     12,     12,     5.4,    4.5,    4]
+  detectors:  [114,     114,    114,    114,    114,    114,    296,    222,    296,    222,    296,    222,    128,    128,    128]
+  net_det:    [172,     96,     79,     64,     54,     47,     59,     42,     38,     36,     37,     43,     55,     81,     156]
+  net_arr_t:  [18,      11.5,   9.5,    7.8,    6.5,    5.6,    4.4,    3.7,    2.8,    3.1,    2.8,    3.7,    6.3,    9.4,    18]
+  net_arr_p:  [25.5,    16.3,   13.5,   11,     9.2,    8,      6.2,    5.2,    4,      4.4,    3.9,    5.2,    8.9,    13.2,   25.5]
+  meta: 
+    f_sky: 1.0
+    status: forecast
+    reference: "Journal of Low Temperature Physics, Volume 194, Issue 5-6, pp. 443-452"
+    type: satellite
