@@ -24,8 +24,28 @@ LiteBIRD:
   net_det:    [172,     96,     79,     64,     54,     47,     59,     42,     38,     36,     37,     43,     55,     81,     156]
   net_arr_t:  [18,      11.5,   9.5,    7.8,    6.5,    5.6,    4.4,    3.7,    2.8,    3.1,    2.8,    3.7,    6.3,    9.4,    18]
   net_arr_p:  [25.5,    16.3,   13.5,   11,     9.2,    8,      6.2,    5.2,    4,      4.4,    3.9,    5.2,    8.9,    13.2,   25.5]
-  meta: 
+  meta:
     f_sky: 1.0
     status: forecast
     reference: "Journal of Low Temperature Physics, Volume 194, Issue 5-6, pp. 443-452"
     type: satellite
+
+SO_SAT:
+  frequency:  [27,	39,	93,	145,	225,	280]
+  depth_p:    [35,	21,	2.6,	3.3,	6.3,	16]  # Baseline
+  fwhm:       [91,	63,	30,	17,	11,	9]
+  meta:
+    f_sky: 0.1
+    status: forecast
+    reference: "Journal of Cosmology and Astroparticle Physics, Issue 02, article id. 056 (2019)"
+    type: ground
+
+SO_LAT:
+  frequency:  [27,	39,	93,	145,	225,	280]
+  depth_p:    [71,	36,	8.0,	10,	22,	54]  # Baseline
+  fwhm:       [7.4,	5.1,	2.2,	1.4,	1.0,	0.9]
+  meta:
+    f_sky: 0.4
+    status: forecast
+    reference: "Journal of Cosmology and Astroparticle Physics, Issue 02, article id. 056 (2019)"
+    type: ground
