@@ -22,4 +22,4 @@ for exp, conf in exps.items():
     tmp['experiment'] = exp
     cmbdb.append(tmp)
 
-cmbdb = pd.concat(cmbdb)
+cmbdb = pd.concat(cmbdb).infer_objects()
