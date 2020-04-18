@@ -11,5 +11,6 @@ setup(
     install=['cmbdb'],
     packages=['cmbdb'],
     include_package_data=True,
-    install_requires=['pandas', 'pyaml', 'setuptools-git'],
+    setup_requires=['setuptools-git'],
+    install_requires=['pandas', 'pyaml'],
 )
