@@ -1,16 +1,15 @@
-from distutils.core import setup
+from setuptools import find_packages, setup
 
 setup(
     name='cmbdb',
-    version='1.0',
     description='Database of basic properties of CMB experiments',
     author='Davide Poletti',
     author_email='davide.pole@gmail.com',
     url='https://github.com/dpole/cmbdb',
     license='GPLv3',
     install=['cmbdb'],
-    packages=['cmbdb'],
-    include_package_data=True,
-    setup_requires=['setuptools-git'],
+    packages=find_packages(),
+    use_scm_version=True,
+    setup_requires=['setuptools_scm'],
     install_requires=['pandas', 'pyaml'],
 )
