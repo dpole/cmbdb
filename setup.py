@@ -9,7 +9,6 @@ setup(
     license='GPLv3',
     install=['cmbdb'],
     packages=find_packages(),
-    use_scm_version=True,
-    setup_requires=['setuptools_scm'],
+    include_package_data=True,
     install_requires=['pandas', 'pyaml'],
 )
