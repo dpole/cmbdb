@@ -49,3 +49,21 @@ SO_LAT:
     status: forecast
     reference: "Journal of Cosmology and Astroparticle Physics, Issue 02, article id. 056 (2019)"
     type: ground
+
+Planck:
+  frequency:  [28.4,  44.1,  70.4,  100,  143,  217,  353,  545,  857]
+  depth_t:    [150.,  162.,  210.,  77.4, 33.,  46.8, 154,  42.,  5016.]
+  depth_p:    [210.,  240.,  300.,  118,  70.2, 105., 439]
+  fwhm:       [32.29, 27.94, 13.08, 9.66, 7.22, 4.90, 4.92, 4.67, 4.22]
+  instrument: [lfi,   lfi,   lfi,   hfi,  hfi,  hfi,  hfi,  hfi,  hfi]
+  # Original quantities
+  # depth_t:  [2.5,   2.7,   3.5,   1.29, 0.55, 0.78, 2.56,] # uK deg
+  # depth_t:  [,,,,,,,                                      0.04, 0.12]  kJy deg / sr
+  # depth_p:  [3.5,   4.0,   5.0,   1.96, 1.17, 1.75, 7.31] uK deg
+  meta:
+    date: 2018
+    f_sky: 1
+    status: achieved
+    reference: "arXiv:1807.06205"
+    type: satellite
+    note: "Warning: 545 and 857 depth_t are simple unit conversions from deg kJy / sr at nominal frequencies"
