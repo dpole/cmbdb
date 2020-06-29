@@ -1,2 +1,4 @@
 # cmbdb
-Data base of Basic properties of CMB experimens
+Collection of the specifications of CMB experiments.
+
+Please feel free to add more to `cmbdb/experiments.yaml`
