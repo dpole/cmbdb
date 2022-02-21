@@ -20,14 +20,15 @@
 # or signle entry in the "meta" argument
 
 LiteBIRD:
-  frequency:  [40.0,  50.0,   60.0,   68.0,   78.0,   89.0,   100.0,  119.0,  140.0,  166.0,  195.0,  235.0,  280.0,  337.0,  402.0]
-  depth_p:    [37.4,  33.5,   21.3,   16.9,   12.1,   11.3,   6.6,    4.6,    4.8,    5.6,    5.8,    10.8,   13.8,   21.9,   47.5]
+  frequency:  [40.0,   50.0,   60.0,   68.0,   78.0,   89,     100,   119,   140,   166,   195,   235,    280,   337,    402]
+  depth_p:    [37.42,  33.46,  21.31,  16.87,  12.07,  11.30,  6.56,  4.58,  4.79,  5.57,  5.85,  10.79,  13.8,  21.95,  47.45]
+  depth_i:    [26.46,  23.66,  15.07,  11.93,  8.53,   7.99,   4.64,  3.24,  3.39,  3.94,  4.14,  7.63,   9.76,  15.52,  33.55]  # See note
   meta:
     f_sky: 1.0
     status: forecast
-    reference: "PTEP"
+    reference: "arXiv:2202.02773, Table 13"
     type: satellite
-    note: "Warning: different instrument at the same freq were combined"
+    note: "Different instruments at the same freq were combined. depth_i is not the official one but simply depth_p / sqrt(2)"
 
 SO_SAT:
   frequency:  [27.0,    39.0,   93.0,   145.0,  225.0,  280]
