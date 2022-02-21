@@ -39,27 +39,27 @@ LiteBIRD:
 
 SO_SAT:
   frequency:  [27.0,    39.0,   93.0,   145.0,  225.0,  280]
-  depth_p:    [35.0,    21.0,   2.6,    3.3,    6.3,    16.0]  # Baseline
-  depth_i:    [24.7,    14.8,   1.8,    2.3,    4.5,    11.3]  # See note
+  depth_i:    [35.0,    21.0,   2.6,    3.3,    6.3,    16.0]  # Baseline
+  depth_p:    [49.5,    29.7,   3.7,    4.7,    8.9,    22.6]  # See note
   fwhm:       [91.0,    63.0,   30.0,   17.0,   11.0,   9.0]
   meta:
     f_sky: 0.1
     status: forecast
     reference: "Journal of Cosmology and Astroparticle Physics, Issue 02, article id. 056 (2019)"
     type: ground
-    note: "Warning: depth_i is not the official one but simply depth_p / sqrt(2)"
+    note: "depth_p is simply depth_i * sqrt(2)"
 
 SO_LAT:
   frequency:  [27.0,    39.0,   93.0,   145.0,  225.0,  280.0]
-  depth_p:    [71.0,    36.0,   8.0,    10.0,   22.0,   54.0]  # Baseline
-  depth_i:    [50.2,    25.5,   5.7,    7.1,    15.6,   38.2]  # See note
+  depth_i:    [71.0,    36.0,   8.0,    10.0,   22.0,   54.0]  # Baseline
+  depth_p:    [100.4,   50.9,   11.3,   14.1,   31.1,   76.4]  # See note
   fwhm:       [7.4,     5.1,    2.2,    1.4,    1.0,    0.9]
   meta:
     f_sky: 0.4
     status: forecast
     reference: "Journal of Cosmology and Astroparticle Physics, Issue 02, article id. 056 (2019)"
     type: ground
-    note: "Warning: depth_i is not the official one but simply depth_p / sqrt(2)"
+    note: "depth_p is simply depth_i * sqrt(2)"
 
 Planck:
   frequency:  [28.4,  44.1,  70.4,  100,  143,  217,  353,  545,  857]
